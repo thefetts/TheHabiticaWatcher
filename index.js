@@ -9,4 +9,8 @@ app.post('/webhook', (req, res, next) => {
   res.end();
 });
 
+app.get('/', (req, res, next) => {
+  res.end();
+});
+
 app.listen(8080);
