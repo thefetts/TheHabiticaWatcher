@@ -1,0 +1,4 @@
+---
+applications:
+  - name: the-habitica-watcher
+    buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
